@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Arreglo">
+  <ClassDiagramComponents>
+    <Class name="Arreglo" package="pruebaarreglo" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="VOWELS" type="String" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="sumarArreglo" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int[]" name="arreglo"/>
+        </Method>
+        <Method name="buscarMayor" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int[]" name="arreglo"/>
+        </Method>
+        <Method name="cuentaVocales" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="cadena"/>
+        </Method>
+        <Method name="cuentaCaracter" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="cadena"/>
+          <Argument type="char" name="c"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
